@@ -1,2 +1,3 @@
 #!/usr/bin/env bash
+# week 6
 ps auxf

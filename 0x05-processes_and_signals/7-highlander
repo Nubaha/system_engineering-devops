@@ -1,3 +1,8 @@
 #!/usr/bin/env bash
-# week 07 part 07
-pkill -f "7-highlander"
+# Displays "To infinity and beyond" indefinitely, shows "I am invincible!!!" on SIGTERM
+trap 'echo "I am invincible!!!"' SIGTERM
+while true
+do
+    echo "To infinity and beyond"
+    sleep 2
+done

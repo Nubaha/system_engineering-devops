@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# week 07 part 07
+pkill -f "7-highlander"
